@@ -1,0 +1,48 @@
+.jumbotron {
+  background-color: rgb(248, 249, 250);
+  color: black;
+  padding-top: 2rem;
+}
+
+.jbt-img {
+  max-width: 35%;
+}
+
+.icons {
+  color: #212529;
+  transition: 0.1s;
+}
+
+.s-icons {
+  transition: 0.5s;
+}
+
+.s-icons:hover {
+  transform: scale(1.2);
+}
+
+.html-icon:hover {
+  color: orange;
+}
+
+.css-icon:hover {
+  color: rgb(73, 134, 226);
+}
+
+.js-icon:hover {
+  color: rgb(247, 186, 74);
+}
+
+.sass-icon:hover {
+  color: rgb(190, 31, 190);
+}
+
+.bs-icon:hover {
+  color: purple;
+}
+
+@media (min-width: 700px) {
+  .mt-n1 {
+    margin-top: -5rem !important;
+  }
+}
