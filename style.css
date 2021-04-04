@@ -41,8 +41,23 @@
   color: purple;
 }
 
-.sql-icon {
-  height: 73%;
+.card-button {
+  margin-top: 20%;
+}
+
+.card-button a {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #212529;
+  transition: 0.5s;
+}
+
+.card-button a:hover {
+  border-radius: 5px;
+  color: white;
+  background-color: #212529;
 }
 
 @media (min-width: 700px) {
